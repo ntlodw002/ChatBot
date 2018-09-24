@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">MyChatBOt</string>
+    <string name="app_name">MyChatBot</string>
+    <string name="user_promt">Type a Message</string>
+    <string name="title_activity_selection">Selection</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
 </resources>

@@ -13,13 +13,10 @@ public class Message {
     public Message(String msgText, String msgUser){
         this.msgText = msgText;
         this.msgUser = msgUser;
-
     }
 
 
-    public Message(){
-
-    }
+    public Message(){}
 
     public String getMsgText() {
         return msgText;

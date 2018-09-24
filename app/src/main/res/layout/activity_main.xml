@@ -9,6 +9,7 @@
 
 
 
+
     <android.support.v7.widget.RecyclerView
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"
@@ -29,12 +30,12 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="5dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="5dp"
             android:layout_marginBottom="10dp"
             android:elevation="2dp"
             android:background="@drawable/back_addtask"
-            android:layout_toRightOf="@+id/addBtn"
+            android:layout_toStartOf="@+id/addBtn"
             android:layout_centerVertical="true"
             >
             <EditText
@@ -53,11 +54,10 @@
             android:id="@+id/addBtn"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:layout_alignParentRight="true"
-            android:layout_marginBottom="10dp"
+            android:layout_alignParentEnd="true"
             android:background="@drawable/back_fab"
+            android:layout_marginBottom="10dp"
             android:layout_marginEnd="5dp"
-            android:layout_marginRight="5dp"
             android:elevation="4dp"
             android:layout_centerInParent="true"
             >
@@ -71,7 +71,5 @@
         </RelativeLayout>
 
     </RelativeLayout>
-
-
 
 </RelativeLayout>
